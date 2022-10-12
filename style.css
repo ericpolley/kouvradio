@@ -1,0 +1,28 @@
+body {
+    background-image: url('images/background.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-color: rgba(110, 16, 16, 0.7);
+    color: rgb(194, 177, 177);
+    text-align: center;
+}
+
+hr {
+    color: white;
+    width: 100%;
+}
+
+.navItem {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.box {
+    border: 5px solid black;
+    width: 60%;
+    height: 40vh;
+    background-color: rgb(9, 9, 9, 0.5);
+}
