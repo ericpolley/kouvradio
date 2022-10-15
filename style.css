@@ -46,23 +46,24 @@ li {
 
 
 
-    
-
 .box {
     border: 5px solid black;
     width: 800px;
     height: auto;
     background-color: rgb(9, 9, 9, 0.5);
-}
+} 
 
-@media (max-width:500px) {
-.player2 {
+
+
+.player, .player2 {
     border: 5px solid black;
-    width: 300px;
+    width: 800px;
     height: 40vh;
     background-color: rgb(9, 9, 9, 0.5);
-   
+  
 }
+
+@media (max-width:550px) {
 .player {
     display: none;
    
@@ -70,14 +71,7 @@ li {
 }
 
 
-@media (min-width:500px) {
-    .player {
-        border: 5px solid black;
-        width: 800px;
-        height: 40vh;
-        background-color: rgb(9, 9, 9, 0.5);
-      
-    }
+@media (min-width:550px) {
     .player2 {
         display: none;
        
