@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>KOUVRADIO Sample</title>
+    <title>KOUVRADIO</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -21,6 +21,7 @@
 
   <body class="container">
     <header>
+      <!--TOP NAV STARTS-->
       <div class="row">
         <h1 class="m-1 p-0">KOUVRADIO.COM</h1>
         <p class="m-0 p-0">
@@ -31,75 +32,138 @@
       </div>
       <br />
       <div class="nav row">
+        <div class="col-md-1"></div>
+        <div class="col-sm col-md-3">
+          <a
+            href="https://www.facebook.com/KouvRadio/events/?ref=page_internal"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="navItem"
+          >
+            EVENT CALENDER
+          </a>
+        </div>
+        <div class="col-sm col-md-4">
+          <div id="aboutUsBtn" class="navItem">About Us</div>
+        </div>
+        <div class="col-sm col-md-3">
+          <div id="supportBtn" class="navItem">WE SUPPORT LOCAL</div>
+        </div>
+
+        <!--TOP NAV ENDS-->
+
         <p>
           <a
-            href="https://wayne0848.wixsite.com/kouv/kouv-amazon-links"
+            href="https://www.amazon.com/gift-cards/b?ie=UTF8&node=2238192011&linkCode=sl2&tag=unboxingma00d-20&linkId=f86dbe2d182c9edcfa06fc07ef7cd627&language=en_US&ref_=as_li_ss_tl"
             target="_blank"
             rel="noopener noreferrer"
             class="navItem"
           >
-            Shop
-          </a>
-          <a
-            href="https://wayne0848.wixsite.com/kouv/daily-schedule"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="navItem"
-          >
-            Daily Schedule
-          </a>
-          <a
-            href="https://wayne0848.wixsite.com/kouv/live-shows"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="navItem"
-          >
-            LIVE SHOWS <small>(Independent)</small>
+            Shop Amazon to Support the Radio!
           </a>
         </p>
-        <hr />
-        <p>
-          <a
-            href="https://amzn.to/3cXVjUE"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="navItem"
-          >
-            Shop Amazon
-          </a>
-          <a
-            href="https://wayne0848.wixsite.com/kouv/race-cars"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="navItem"
-          >
-            Kouv Race Cars
-          </a>
-        </p>
-        <hr />
       </div>
     </header>
     <main class="row flex justify-content-center m-2">
-      <div class="box row flex align-items-center">
-        <h3>embed player here</h3>
+      <!--ABOUT US    START-->
+
+      <div id="aboutUs" class="row flex align-items-center hide box">
+        <p>
+          <br /><br />
+          A 24/7 internet radio station dedicated to the music in the Northwest.
+          <br />
+          From classics to your neighbor!<br />
+          <div class="col-6">
+            <a href="mailto:sroche@kouvradio.com">sroche@kouvradio.com</a> <br />
+            <a href="mailto:wroche@kouvradio.com">wroche@kouvradio.com</a> <br />
+            <a href="https://www.facebook.com/KouvRadio/" target="_blank" rel="noopener noreferrer">FaceBook</a>
+        
+          <br />
+          OR <br />
+          Kouv Radio P.O. Box 3232 <br />
+          Vancouver, WA 98668
+          </div>
+          <div class="col-6">
+          <img src="images/wayne.png" alt="Wayne" />
+        </div>
+        </p>
+        <p>© copyright Wayne Roche 2022</p>
       </div>
+
+      <!--ABOUT US    END-->
+
+      <!--SUPPORT link, button assignment in javascript by ID-->
+      <div id="support" class="row flex align-items-center hide box">
+        <p>
+          We show support for music as much as our heart can handle, but the
+          support doesn't stop at music!
+        </p>
+        <p>
+          Race Cars, Creatives, and Local Artists; <br />
+          <strong> We love them, We support them! </strong>
+        </p>
+        <div class="row">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-4">
+            <ul>
+              <li>Musicians</li>
+              <li>Comedians</li>
+              <li>Local Artists</li>
+              <li>Clubs and Programs</li>
+              <li>Local Businesses</li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <ul>
+              <li>Dirty Bomb Racing</li>
+              <li>TZR Racing</li>
+              <li>Dendy Racing</li>
+              <li>Roche Racing</li>
+              <li>Iron Rav Racing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--SUPPORT links END-->
+
+      <!--PLAYER CODE GOES HERE-->
+      <div class="player row flex align-items-center">
+        <h3>Music Player</h3>
+      </div>
+
+      <div class="player2 row flex align-items-center hide">
+        <h3>Music Player2</h3>
+      </div>
+
+      <!--PLAYER ENDS HERE-->
     </main>
+    <!--ALL THE IMAGES AT THE BOTTOM OF THE PAGE-->
     <footer>
       <a href="http://kouvradio.com" target="_blank" rel="noopener noreferrer">
-        <img src="images/a.png" alt="a" />
+        <img class="img" src="images/kouvradio-ericpolley.png" alt="c" />
+      </a>
+      <p class="m-1">
+        <a class="navItem" href="mailto:music@kouvradio.com"
+            >
+             Submit your music here!</a
+          >
+      </p>
+      <br />
+      <a href="http://kouvradio.com" target="_blank" rel="noopener noreferrer">
+        <img class="imgSml" src="images/a.png" alt="a" />
       </a>
       <a href="http://kouvradio.com" target="_blank" rel="noopener noreferrer">
-        <img src="images/b.png" alt="b" />
+        <img class="imgSml" src="images/b.png" alt="b" />
+      </a>
+
+      <a href="http://kouvradio.com" target="_blank" rel="noopener noreferrer">
+        <img class="imgSml" src="images/c.png" alt="c" />
       </a>
       <a href="http://kouvradio.com" target="_blank" rel="noopener noreferrer">
-        <img src="images/kouvradio-ericpolley.png" alt="c" />
+        <img class="imgSml" src="images/d.png" alt="d" />
       </a>
-      <a href="http://kouvradio.com" target="_blank" rel="noopener noreferrer">
-        <img src="images/c.png" alt="c" />
-      </a>
-      <a href="http://kouvradio.com" target="_blank" rel="noopener noreferrer">
-        <img src="images/d.png" alt="d" />
-      </a>
+
+     
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
     <script
@@ -113,5 +177,7 @@
       integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
       crossorigin="anonymous"
     ></script>
+
+    <script src="script.js"></script>
   </body>
 </html>
